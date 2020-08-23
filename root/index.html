@@ -3,13 +3,19 @@
 	<head>
 	<!-- THIS CONTAINS THE METADATA such as author, publisher, date published -->
 		<!--this sets the character set to unicode 8 bit which is most languages & glyphs -->
-		<meta charset="utf-8"/>
+		 <!-- Required meta tags -->
+		<meta charset="utf-8">
+		<!-- STEP 1 add responsive viewport tag -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		
 		<!--this sets the title of the tab in the browser, and tells the search engine what the website is about -->
 		<title>Flowers</title>
 		
 		<!-- This links to our external cascading style sheet. -->
 		<link rel="stylesheet" href="style.css">
+		
+		<!-- STEP 2 - add link rel to stylesheet for bootstrap, this adds bootstrap to our project quickly without download --><!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	
 	</head>
 	
@@ -24,30 +30,45 @@
 		
 		
 		<!-- how we link an image to the website from our images folder -->
-		<img src="images/flower.jpg" alt="daffodil flowers in a woodland" />
+		<img src="images/flower.jpg" class="rounded-circle p-3 img-fluid" alt="daffodil flowers in a woodland" />
 		
 		
 		
 		<!--this is a container for all our paragraphs, centers them in CSS -->
+		
 		<div class="container">
-			<h2>About</h2>
-				<!-- this is a paragraph for our site -->
-				<p id="first">These are flowers near the hospital in Christchurch. It is part of the Daffodil Woodlands planted in 1933. Staff and Volunteers planted 16,000 daffodils. Every Autumn more flowers are planted. There are three types of daffodils in the woodlands as well as snowdrops.</p>
-			<h2>History</h2>	
-				<!-- this is a paragraph for our site -->
-				<p class="alternating">These are flowers near the hospital in Christchurch. It is part of the Daffodil Woodlands planted in 1933. Staff and Volunteers planted 16,000 daffodils. Every Autumn more flowers are planted. There are three types of daffodils in the woodlands as well as snowdrops.</p>
-			<h2>Future</h2>	
-				<!-- this is a paragraph for our site -->
-				<p>These are flowers near the hospital in Christchurch. It is part of the Daffodil Woodlands planted in 1933. Staff and Volunteers planted 16,000 daffodils. Every Autumn more flowers are planted. There are three types of daffodils in the woodlands as well as snowdrops.</p>
-			<h2>Contact Me</h2>	
-				<!-- this is a paragraph for our site -->
-				<p class="alternating">These are flowers near the hospital in Christchurch. It is part of the Daffodil Woodlands planted in 1933. Staff and Volunteers planted 16,000 daffodils. Every Autumn more flowers are planted. There are three types of daffodils in the woodlands as well as snowdrops.</p>
+			<div class="row mt-5 mb-5">
+					<div class="col-md-9 ">
+						<h2>About</h2>
+							<!-- this is a paragraph for our site -->
+							<p id="first">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.</p>
+						<h2>History</h2>	
+							<!-- this is a paragraph for our site -->
+							<p class="alternating">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Et</p>
+						<h2>Future</h2>	
+							<!-- this is a paragraph for our site -->
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Et</p>
+					</div>
+					<div class="col-md-3 ">
+						<h2>Contact Me</h2>	
+							<!-- this is a paragraph for our site -->
+							<p class="alternating">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Et</p>
+							<button class="btn btn-success">Button</button>
+					</div>
+			</div>
 		</div>
 		
 		<!-- this is my footer with contact info -->
 		<footer>
 			<h6>Please contact me at mrv@gmail.com for any concerns or queries about this website</h6>
 		</footer>
+		
+		<!-- STEP 3 - Many of our components require the use of JavaScript to function. Specifically, they require jQuery, Popper.js, and our own JavaScript plugins. Add the following <script>s near the end of your pages, right before the closing </body> tag, to enable them. jQuery must come first, then Popper.js, and then our JavaScript plugins. -->
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 	</body>
 	
 </html>
