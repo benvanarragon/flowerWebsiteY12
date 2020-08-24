@@ -21,7 +21,9 @@ body{
 
 /* STEP 3: html font family - Make a CSS rule that targets all font on the webpage and sets the font to p.b Arial, Helvetica, sans-serif*/
 html {
-  /* font-family: Arial, Helvetica, sans-serif;*/
+	/* font-family: Arial, Helvetica, sans-serif;*/
+
+	scroll-behavior: smooth;
 
 }
 

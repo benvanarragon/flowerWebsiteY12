@@ -23,14 +23,40 @@
 	<body>
 	
 		<!--this is a header tag for the top of my website -->
-		<header>
+		
 			<!-- this is a heading of the largest size -->
-			<h1>Daffodil Woodlands</h1>
-		</header>
+			<!--<h1>Daffodil Woodlands</h1> -->
+			
+			<!--this will be our navbar -->
+			<nav class="navbar navbar-expand-md fixed-top bg-dark navbar-dark">
+				<a class="navbar-brand" href="#">
+					<strong>Navbar</strong>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#first">Link 1</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About Me</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link 3</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+						
+
+			
+		
 		
 		
 		<!-- how we link an image to the website from our images folder -->
-		<img src="images/flower.jpg" class="rounded-circle p-3 img-fluid" alt="daffodil flowers in a woodland" />
+		<img src="images/flower.jpg" class="rounded-circle p-5 img-fluid" alt="daffodil flowers in a woodland" />
 		
 		
 		
